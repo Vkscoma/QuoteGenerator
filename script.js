@@ -11,7 +11,7 @@ function generateQuote() {
     })
         .then(response => response.json())
         .then(data => {
-            quote.textContent = data[0].quote;
+            quote.textContent = `"${data[0].quote}"`;
             author.textContent = data[0].author;
         })
 }
