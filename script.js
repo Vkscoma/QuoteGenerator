@@ -25,5 +25,5 @@ button.addEventListener("click", () => {
     quoteContainer.classList.add("animate__fadeInUp")
     setTimeout(() => {
         quoteContainer.classList.remove("animate__fadeInUp")
-    }, 2500);
+    }, 1600);
 });
